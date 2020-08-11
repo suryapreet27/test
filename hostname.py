@@ -1,3 +1,4 @@
 import socket
 a = socket.gethostname()
-print(a)
+b = socket.socket()
+print(a,b)
