@@ -1,4 +1,3 @@
-import socket
-a = socket.gethostname()
-b = socket.getfqdn()
-print(a,b)
+import psutil
+a = psutil.wait_procs()
+print(a)
